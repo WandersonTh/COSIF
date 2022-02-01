@@ -68,7 +68,6 @@ namespace COSIF.Web
                 if (env.IsDevelopment())
                 {
                     spa.UseAngularCliServer(npmScript: "start");
-                    //spa.UseProxyToSpaDevelopmentServer("https://localhost:44356/");
                 }
             });
         }
